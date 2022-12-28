@@ -18,6 +18,7 @@ To check if it is correctly installed:
 python
 
 \>>>import cv2
+
 \>>>print(cv2.__version__)
 
 
