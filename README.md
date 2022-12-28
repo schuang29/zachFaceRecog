@@ -9,18 +9,18 @@ The first experiment was to recognize faces from pictures. This can be cound on 
 
 Installation Requirements
 
-H1 openCV
+#1 openCV
 first try this: in a command terminal: pip install opencv-python
 other tutorials
 https://docs.opencv.org/4.x/d5/de5/tutorial_py_setup_in_windows.html
 
 To check if it is correctly installed:
 python
->>>import cv2
->>>print(cv2.__version__)
+\>>>import cv2
+\>>>print(cv2.__version__)
 
 
-H1 face_recognition
+#2 face_recognition
 pip install face_recognition
 
 tutorial: https://pypi.org/project/face-recognition/
