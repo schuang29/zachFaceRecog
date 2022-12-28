@@ -1,10 +1,10 @@
 # Zach's log
 
-Latest code (3rd experiment) is in steve_webcam_detect_recog.py. This will do the face recognition. To run, in VSC terminal window, run python steve_webcam_detect_recog.py. You can easily do that by right-clicking on the file, and choose the Run Python File in Terminal option.
+Latest code (3rd experiment) is in steve_webcam_detect_recog.py. This will do the face recognition. To run, in VSC terminal window, run python steve_webcam_detect_recog.py. You can easily do that by right-clicking on the file, and choose the Run Python File in Terminal option. Learned about this from this web page: https://pypi.org/project/face-recognition/
 
-Prior to face recog, it was simply detecting faces using the webcam (2nd experiment). You can run the steve_webcam_detect.py script, similarly by right clicking on the file in VSC and Run Python File in Terminal option.
+Prior to face recog, it was simply detecting faces using the webcam (2nd experiment). You can run the steve_webcam_detect.py script, similarly by right clicking on the file in VSC and Run Python File in Terminal option. Learned from this web page: https://realpython.com/face-detection-in-python-using-a-webcam/
 
-The first experiment was to recognize faces from pictures. This can be cound on face_detect.py. To run, run this from terminal: python face_detect.py family3.jpg
+The first experiment was to recognize faces from pictures. This can be cound on face_detect.py. To run, run this from terminal: python face_detect.py family3.jpg. Learned from this web page: https://realpython.com/face-recognition-with-python/#installing-opencv
 
 --------------
 
