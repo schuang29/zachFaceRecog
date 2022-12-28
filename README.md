@@ -17,9 +17,8 @@ https://docs.opencv.org/4.x/d5/de5/tutorial_py_setup_in_windows.html
 To check if it is correctly installed:
 python
 
-\>>>import cv2
-
-\>>>print(cv2.\__version\__)
+`>>>import cv2`
+`>>>print(cv2.__version__)`
 
 
 #2 face_recognition
