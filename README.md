@@ -1,5 +1,11 @@
 # Zach's log
+12/29/2022
+Installed voice synthesizer, following this doc: https://www.thepythoncode.com/article/convert-text-to-speech-in-python. The goal is to speak the name of the identified person when they enter the view of the window.
+Installed library called pyttsx3 in a separate Powershell window. Originally encountered permissions issue when trying to install from the terminal window in VSC.  The command is `pip install pyttsx3`
 
+Create a test python file, test_tts.py
+
+12/28/2022
 Latest code (3rd experiment) is in steve_webcam_detect_recog.py. This will do the face recognition. To run, in VSC terminal window, run python steve_webcam_detect_recog.py. You can easily do that by right-clicking on the file, and choose the Run Python File in Terminal option. Learned about this from this web page: https://pypi.org/project/face-recognition/
 
 Prior to face recog, it was simply detecting faces using the webcam (2nd experiment). You can run the steve_webcam_detect.py script, similarly by right clicking on the file in VSC and Run Python File in Terminal option. Learned from this web page: https://realpython.com/face-detection-in-python-using-a-webcam/
