@@ -16,7 +16,9 @@ The first experiment was to recognize faces from pictures. This can be cound on 
 Installation Requirements
 
 #1 openCV
-first try this: in a command terminal: pip install opencv-python
+first try this: in a command terminal: 
+`pip install opencv-python`
+
 other tutorials
 https://docs.opencv.org/4.x/d5/de5/tutorial_py_setup_in_windows.html
 
@@ -28,7 +30,27 @@ python
 
 
 #2 face_recognition
-pip install face_recognition
+first install cmake from download
+`pip install cmake`
+
+`pip install dlib`
+
+
+Received this error when trying to install dlib
+     !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+     
+     
+        You must use Visual Studio to build a python extension on windows.  If you
+        are getting this error it means you have not installed Visual C++.  Note
+        that there are many flavors of Visual Studio, like Visual Studio for C#
+        development.  You need to install Visual Studio for C++.
+     
+     
+     !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+So, downloaded and installed visual studio c++ from  https://visualstudio.microsoft.com/vs/features/cplusplus/    
+
+`pip install face_recognition`
 
 tutorial: https://pypi.org/project/face-recognition/
 

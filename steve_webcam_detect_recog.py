@@ -47,6 +47,8 @@ face_encodings = []
 face_names = []
 process_this_frame = True
 
+print("Faces loaded, going into loop where it is reading video from camera")
+
 while True:
     # Grab a single frame of video
     ret, frame = video_capture.read()
